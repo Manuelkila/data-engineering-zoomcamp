@@ -4,6 +4,8 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
+  default = "de-bootcamp-339322"
+  type = string
 }
 
 variable "region" {
